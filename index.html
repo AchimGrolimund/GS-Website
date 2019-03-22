@@ -145,11 +145,12 @@
     <div data-aos="zoom-in" class="contact-clean">
         <form data-bss-recipient="55f3a736b9b4b7ce90c7bc6905116df9" data-bss-subject="Kontaktformular">
             <h2 class="text-center">Kontakt</h2>
-            <div class="form-group"><input class="form-control" type="text" name="name" placeholder="Name"></div>
-            <div class="form-group"><input class="form-control is-invalid" type="email" name="email" placeholder="Email"><small class="form-text text-danger">Please enter a correct email address.</small></div>
-            <div class="form-group"><textarea class="form-control" rows="14" name="message" placeholder="Message"></textarea></div>
-            <div class="form-group"><button class="btn btn-primary" type="submit">Senden</button></div>
-        </form>
+            <div class="form-group"><input class="form-control" type="text" name="name" required="" placeholder="Name"></div>
+            <div class="form-group"><input class="form-control is-invalid" type="email" name="email" required="" placeholder="E-Mail" minlength="6" autocomplete="off" inputmode="email"><small class="form-text text-danger invisible">Please enter a correct email address.</small></div>
+            <div
+                class="form-group"><textarea class="form-control" rows="14" name="message" required="" placeholder="Nachricht"></textarea></div>
+    <div class="form-group"><button class="btn btn-primary" type="submit">Senden</button></div>
+    </form>
     </div>
     <div class="footer-dark">
         <footer>
