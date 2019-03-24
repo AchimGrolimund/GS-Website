@@ -27,7 +27,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
-    <link rel="stylesheet" href="assets/css/styles.min.css?h=47e9b02bb0729842f6db0587dc0f90f2">
+    <link rel="stylesheet" href="assets/css/styles.min.css?h=e43aa5b81e9d25b4de661c89e3b1ce46">
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -53,13 +53,25 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-dark fixed-top bg-dark navbar-custom" style="height: 45px;">
-        <div class="container"><a class="navbar-brand" href="#">Grolimund Solutions</a><button class="navbar-toggler d-none" data-toggle="collapse" data-target="#navbarResponsive"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="nav navbar-nav ml-auto"></ul>
+    <div>
+        <nav class="navbar navbar-light navbar-expand-md navigation-clean">
+            <div class="container"><a class="navbar-brand" href="index.html">Grolimund Solutions</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div
+                    class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="dropdown nav-item"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">Services</a>
+                            <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">Softwareentwicklung</a><a class="dropdown-item" role="presentation" href="#">Software Verkauf</a><a class="dropdown-item" role="presentation" href="#">Webhosting</a><a class="dropdown-item"
+                                    role="presentation" href="#">IT-Beratung</a><a class="dropdown-item" role="presentation" href="#">Nachhilfeunterricht</a></div>
+                        </li>
+                        <li class="dropdown nav-item"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">About</a>
+                            <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">Firma</a><a class="dropdown-item" role="presentation" href="#">Team</a><a class="dropdown-item" role="presentation" href="#">Datenschutz</a><a class="dropdown-item" role="presentation"
+                                    href="#">Impressum</a></div>
+                        </li>
+                    </ul>
             </div>
-        </div>
+    </div>
     </nav>
+    </div>
     <header class="masthead text-center text-white" style="background-image: url(&quot;assets/img/Website%20Wallpaper.jpg?h=66388bbe6998f95203a30dd93efb8765&quot;);">
         <div class="masthead-content">
             <div class="container">
@@ -167,7 +179,7 @@
             <h2 class="text-center">Kontakt</h2>
             <div class="form-group"><input class="form-control" type="text" name="name" required="" placeholder="Name"></div>
             <div class="form-group"><input class="form-control" type="email" name="email" required="" placeholder="E-Mail" minlength="6" autocomplete="off" inputmode="email"></div>
-            <div class="form-group"><select class="custom-select" name="Thema" required=""><option value="" selected="">Thema wählen</option><option value="">Allgemeine Frage</option><option value="">Softwareentwicklung</option><option value="">Software Verkauf</option><option value="">Webhosting</option><option value="">IT-Beratung</option><option value="">Nachhilfeunterricht</option></select></div>
+            <div class="form-group"><select class="custom-select" name="Thema"><option value="" selected="">Thema wählen</option><option value="">Allgemeine Frage</option><option value="">Softwareentwicklung</option><option value="">Software Verkauf</option><option value="">Webhosting</option><option value="">IT-Beratung</option><option value="">Nachhilfeunterricht</option></select></div>
             <div
                 class="form-group"><textarea class="form-control" rows="14" name="message" required="" placeholder="Nachricht"></textarea></div>
     <div class="form-group"><button class="btn btn-primary" type="submit">Senden</button></div>
