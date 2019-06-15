@@ -1,21 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
+        <loc>https://grolimund-solution.ch/about/datenschutz.html</loc>
+    </url>
+    <url>
+        <loc>https://grolimund-solution.ch/about/impressum.html</loc>
+    </url>
+    <url>
+        <loc>https://grolimund-solution.ch/about/team.html</loc>
+    </url>
+    <url>
         <loc>https://grolimund-solution.ch/projects/cloudplaner.html</loc>
     </url>
     <url>
         <loc>https://grolimund-solution.ch/projects/overview.html</loc>
     </url>
     <url>
-        <loc>https://grolimund-solution.ch/datenschutz.html</loc>
+        <loc>https://grolimund-solution.ch/services/it-beratung.html</loc>
     </url>
     <url>
-        <loc>https://grolimund-solution.ch/impressum.html</loc>
+        <loc>https://grolimund-solution.ch/services/nachhilfe.html</loc>
+    </url>
+    <url>
+        <loc>https://grolimund-solution.ch/services/security-check.html</loc>
+    </url>
+    <url>
+        <loc>https://grolimund-solution.ch/services/sw-verkauf.html</loc>
+    </url>
+    <url>
+        <loc>https://grolimund-solution.ch/services/webhosting.html</loc>
     </url>
     <url>
         <loc>https://grolimund-solution.ch/index.html</loc>
-    </url>
-    <url>
-        <loc>https://grolimund-solution.ch/team.html</loc>
     </url>
 </urlset>
